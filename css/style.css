@@ -11,10 +11,13 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.header_main_align {
+    padding: 50px 140px;
+}
+
 /* banner section 1*/
 
 .banner {
-    padding: 50px 140px;
     position: relative;
     text-align: center;
     color: white;
@@ -22,7 +25,7 @@ body {
 
 
 .banner_img {
-    background: linear-gradient(180deg, hsl(260, 79%, 4%) 0%, rgba(7, 2, 17, 0) 100%), url('../images/Banner Image.png');
+    background: linear-gradient(180deg, #070211 0%, #07021100 100%), url('../images/Banner Image.png');
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -30,28 +33,27 @@ body {
 
 .banner_mini_title {
     position: absolute;
-    top: 177px;
-    left: 670px;
+    top: 120px;
+    left: 530px;
     font-size: 32px;
     font-weight: 400;
-    margin-bottom: 0px;
+    margin-bottom: 0px auto;
 }
 
 .banner_title {
     position: absolute;
-    top: 220px;
-    left: 400px;
+    top: 170px;
+    left: 344px;
     right: 300px;
     font-size: 52px;
     font-weight: 900;
-    margin-top: 0px;
+    margin-bottom: 0px auto;
     line-height: 95px;
 }
 
 /* banner section 2*/
 
 .banner2 {
-    padding: 50px 140px;
     text-align: center;
 }
 
@@ -76,4 +78,65 @@ body {
     font-size: 48px;
     font-weight: 700;
     margin-top: 5px;
+}
+
+/* main section image */
+
+.main_sec_img1 {
+    background: linear-gradient(90deg, #070211 0%, #07021100 100%), url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_portion {}
+
+.image_text {
+    color: white;
+}
+
+.image_text_h1 {
+    position: absolute;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    word-wrap: break-word;
+    width: 600px;
+    top: 1600px;
+    left: 266px;
+}
+
+.image_text_p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    top: 1835px;
+    left: 266px;
+    width: 700px;
+}
+
+.image_text_bt {
+    position: absolute;
+    top: 1970px;
+    left: 298px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.image_image {
+    width: 320px;
+    height: 465px;
+    padding-right: 145px;
+    padding-top: 52px;
 }

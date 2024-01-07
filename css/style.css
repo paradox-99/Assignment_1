@@ -1,0 +1,79 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.font1 {
+    font-family: 'Merriweather', serif;
+}
+
+.font2 {
+    font-family: 'Inter', sans-serif;
+}
+
+/* banner section 1*/
+
+.banner {
+    padding: 50px 140px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.banner_img {
+    background: linear-gradient(180deg, hsl(260, 79%, 4%) 0%, rgba(7, 2, 17, 0) 100%), url('../images/Banner Image.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.banner_mini_title {
+    position: absolute;
+    top: 177px;
+    left: 670px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.banner_title {
+    position: absolute;
+    top: 220px;
+    left: 400px;
+    right: 300px;
+    font-size: 52px;
+    font-weight: 900;
+    margin-top: 0px;
+    line-height: 95px;
+}
+
+/* banner section 2*/
+
+.banner2 {
+    padding: 50px 140px;
+    text-align: center;
+}
+
+.banner2_h1 {
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.banner2_h5 {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.banner2_h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+}

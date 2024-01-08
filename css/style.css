@@ -91,8 +91,6 @@ body {
     justify-content: space-between;
 }
 
-.image_portion {}
-
 .image_text {
     color: white;
 }
@@ -230,6 +228,7 @@ body {
     line-height: 32px;
     word-wrap: break-word;
     margin-top: 22px;
+    margin-bottom: 40px;
 }
 
 .main_section3_2nd {
@@ -331,4 +330,20 @@ body {
     background: #FF0000;
     border-radius: 16px 0 16px 16px;
     /* mix-blend-mode:difference; */
+}
+
+/* main section part5 */
+
+.main_section5_1st{
+    margin-top: 150px;
+}
+
+.main_section5_1st p{
+    width: 800px;
+}
+
+.ssb{
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 409px;
 }

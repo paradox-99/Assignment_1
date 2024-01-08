@@ -106,6 +106,7 @@ body {
     width: 600px;
     top: 1645px;
     left: 266px;
+    margin-top: 110px;
 }
 
 .image_text_p {
@@ -115,14 +116,14 @@ body {
     font-weight: 400;
     line-height: 30px;
     word-wrap: break-word;
-    top: 1880px;
     left: 266px;
     width: 700px;
+    margin-top: 310px;
 }
 
 .image_text_bt {
     position: absolute;
-    top: 2010px;
+    margin-top: 430px;
     left: 298px;
     background-color: transparent;
     color: white;
@@ -132,7 +133,6 @@ body {
     text-transform: uppercase;
     word-wrap: break-word;
     cursor: pointer;
-    margin-top: 30px;
 }
 
 .image_image {
@@ -332,9 +332,9 @@ body {
     margin-top: -234px;
     width: 1320px;
     height: 230px;
-    background: #FF0000;
+    background-image: url('../images/Rectangle 2.png');
     border-radius: 16px 0 16px 16px;
-    /* mix-blend-mode:difference; */
+    /* mix-blend-mode:darken; */
 }
 
 /* main section part5 */

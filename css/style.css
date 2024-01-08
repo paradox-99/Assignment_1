@@ -130,6 +130,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     word-wrap: break-word;
+    cursor: pointer;
 }
 
 .image_image {
@@ -189,6 +190,7 @@ body {
     border: none;
     padding: 16px 32px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .main_section3 {
@@ -346,6 +348,12 @@ body {
     margin-right: 24px;
     margin-bottom: 24px;
     width: 409px;
+
+}
+
+.ssb:hover{
+    transform: scale(1.07);
+    transition-duration: 500ms;
 }
 
 .main_section6 {
@@ -359,7 +367,7 @@ body {
     margin-top: 120px;
 }
 
-.main_section6 img{
+.main_section6 img {
     margin-bottom: 20px;
 }
 
@@ -395,4 +403,102 @@ body {
     font-weight: 600;
     text-transform: capitalize;
     word-wrap: break-word;
+    cursor: pointer;
+}
+
+.footer {
+    background: #070211;
+    height: 610px;
+    color: white;
+}
+
+.footer_up {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+address {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word;
+    max-width: 380px;
+}
+
+.footer_up_2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word;
+    margin-right: 200px;
+
+}
+
+.footer_up_2_div {
+    display: flex;
+}
+
+.footer_up_2_div img {
+    max-width: 24px;
+    max-height: 24px;
+    margin-top: 10px;
+}
+
+.footer_up_2_div h6 {
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer_middle {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_down h6{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.footer_down button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer_down button:hover{
+    text-decoration: underline;
 }

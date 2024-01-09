@@ -15,7 +15,8 @@ body {
     padding: 50px 105px;
 }
 
-/* banner section 1*/
+                /* header section banner 1*/
+
 
 .banner {
     position: relative;
@@ -51,7 +52,8 @@ body {
     line-height: 95px;
 }
 
-/* banner section 2*/
+                /* header section banner 2 */
+
 
 .banner2 {
     text-align: center;
@@ -81,7 +83,7 @@ body {
     margin-top: 5px;
 }
 
-/* main section image/bg 1 */
+/* main section part 1. welcome part */
 
 .main_sec_img1 {
     background: linear-gradient(90deg, #070211 0%, #07021100 100%), url('../images/Vectorrr.png');
@@ -143,7 +145,8 @@ body {
     /* mix-blend-mode:normal; */
 }
 
-/* main section bg 2 */
+                /* main section part 2. event address part. */
+
 
 .main_section2 {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
@@ -195,6 +198,10 @@ body {
     cursor: pointer;
 }
 
+
+        /* main section part 3. coming soon part */
+
+
 .main_section3 {
     display: flex;
     gap: 60px;
@@ -238,7 +245,7 @@ body {
 
 .main_section3_2nd {
     border: 15px #FF0000 solid;
-    border-radius: 50%;
+    border-radius: 50%;                           /* image border code */
     padding: 35px;
 }
 
@@ -268,7 +275,7 @@ body {
     justify-content: end;
 }
 
-/* main section part 4 */
+                    /* main section part 4. holidays sale part. */
 
 .main_section4_header {
     margin-top: 100px;
@@ -337,7 +344,7 @@ body {
     /* mix-blend-mode:darken; */
 }
 
-/* main section part5 */
+            /* main section part5. product pictures part */
 
 .main_section5_1st {
     margin-top: 150px;
@@ -355,9 +362,12 @@ body {
 }
 
 .ssb:hover{
-    transform: scale(1.07);
+    transform: scale(1.07);                 /* image effect code */
     transition-duration: 500ms;
 }
+
+        /* main section part 6. the subscribe part */
+
 
 .main_section6 {
     width: 100%;
@@ -408,6 +418,10 @@ body {
     cursor: pointer;
 }
 
+
+            /* footer section */
+
+
 .footer {
     background: #070211;
     height: 610px;
@@ -455,6 +469,10 @@ address {
     font-size: 24px;
     font-weight: 500;
 }
+
+
+            /* footer image  link code */
+
 
 .footer_middle {
     display: flex;
